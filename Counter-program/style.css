@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countLabel {
+    display: block;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button {
+    width: 15%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    cursor: pointer;
+}
